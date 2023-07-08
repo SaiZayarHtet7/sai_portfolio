@@ -21,7 +21,7 @@ class _AboutPageState extends State<AboutPage> {
     return SizedBox(
       width: context.dw,
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: context.dw / 10),
+        margin: EdgeInsets.symmetric(horizontal: context.dw / 15),
         // color: Colors.amber,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,

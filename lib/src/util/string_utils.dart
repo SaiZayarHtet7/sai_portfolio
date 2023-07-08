@@ -18,4 +18,14 @@ class StringUtils {
   static String technologyIUse = "Technology I Use";
   static String experienceText =
       "     I began my professional mobile application development journey with an internship at MIT (Myanmar Information Technology Co.). After completing the internship, I teamed up with my friends and founded SLASH Myanmar. We have been working together for the past 1.5 years. In order to gain more experience and take on new challenges, I joined Strategy First Education Group as a Flutter developer. Currently, I am working there as a senior Flutter developer.";
+
+  static String contactTitle =
+      "If you want to work with me,\nI’m always open.I’ll try my best\nto get back to you!";
+  static String sayHello = "Say Hello!";
+  static String myMail = "saizayarhtet7@gmail.com";
+
+  static String buildWith = "Build with ";
+  static String flutter = "flutter ";
+  static String deployOn = "and deployed on ";
+  static String firebase = "firebase ";
 }

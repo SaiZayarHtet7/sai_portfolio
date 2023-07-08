@@ -37,7 +37,15 @@ class _ExperiencePageState extends State<ExperiencePage> {
         company: "Slash Myanmar",
         position: "Freelancer & Co-Founder",
         description:
-            "   My friends and I co-founded a company with the aim of providing enhanced IT solutions for businesses. We have developed a user-friendly and versatile POS system as our flagship product. \nIn addition to that, we offer mobile and web development services to cater to the diverse needs of our valuable customers. \nOur main focus is on understanding and fulfilling our users' requirements, and we make it a priority to regularly meet with them to deliver optimal solutions that are beneficial and profitable for their businesses."),
+            "My friends and I co-founded a company with the aim of providing enhanced IT solutions for businesses. We have developed a user-friendly and versatile POS system as our flagship product. \nIn addition to that, we offer mobile and web development services to cater to the diverse needs of our valuable customers. \nOur main focus is on understanding and fulfilling our users' requirements, and we make it a priority to regularly meet with them to deliver optimal solutions that are beneficial and profitable for their businesses."),
+    ExperienceModel(
+        startDate: "Jan/2022",
+        endDate: "Present",
+        image: ImageUtils.sfeg,
+        company: "Strategy First Education Group",
+        position: "Senior Flutter Developer",
+        description:
+            "I am responsible for the development and maintenance of a mobile application provided by Strategy First Education Group, aimed at offering a higher education system for Myanmar.Working closely with my skilled team, we collaboratively create improved solutions for education in Myanmar."),
   ];
 
   @override

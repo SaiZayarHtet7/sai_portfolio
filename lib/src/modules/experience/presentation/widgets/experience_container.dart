@@ -50,6 +50,10 @@ class ExperienceContainer extends StatelessWidget {
                       .copyWith(color: context.primary()),
                 ),
                 5.height,
+                if (context.isMobile)
+                  MyText(
+                      "(${experienceModel.startDate ?? ""}-${experienceModel.endDate ?? "-"})"),
+                5.height,
                 MyText(experienceModel.description ?? ""),
               ],
             ),

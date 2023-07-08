@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sai_portfolio/src/extension/extensions.dart';
 import 'package:sai_portfolio/src/modules/about/about.dart';
 
+import '../../contact/contact.dart';
 import '../../experience/experience.dart';
 import 'widgets/widget.dart';
 
@@ -31,7 +32,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             controller: scrollController,
             physics: const ClampingScrollPhysics(),
             child: const Column(
-              children: [IntroPage(), AboutPage(), ExperiencePage()],
+              children: [
+                IntroPage(),
+                AboutPage(),
+                ExperiencePage(),
+                ContactPage(),
+              ],
             ),
           ),
           const HeaderBar(),

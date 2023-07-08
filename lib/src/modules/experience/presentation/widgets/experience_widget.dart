@@ -52,17 +52,17 @@ class ExperienceWidget extends StatelessWidget {
           if (context.isNotMobile) 10.width,
           if (context.isNotMobile)
             Flexible(
-                flex: 1,
-                fit: FlexFit.tight,
-                child: Align(
-                  alignment:
-                      isIndexEven ? Alignment.topLeft : Alignment.topRight,
-                  child: Padding(
-                    padding: const EdgeInsets.only(top: 15),
-                    child: MyText(
-                        "${experienceModel.startDate ?? ""}-${experienceModel.endDate ?? "-"}"),
-                  ),
-                ))
+              flex: 1,
+              fit: FlexFit.tight,
+              child: Align(
+                alignment: isIndexEven ? Alignment.topLeft : Alignment.topRight,
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 15),
+                  child: MyText(
+                      "${experienceModel.startDate ?? ""}-${experienceModel.endDate ?? "-"}"),
+                ),
+              ),
+            ),
         ],
       ),
     );
