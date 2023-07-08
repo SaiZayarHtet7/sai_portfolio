@@ -28,4 +28,13 @@ class StringUtils {
   static String flutter = "flutter ";
   static String deployOn = "and deployed on ";
   static String firebase = "firebase ";
+
+  //contact
+  static String githubLink = "https://github.com/SaiZayarHtet7";
+  static String facebookLink = "https://www.facebook.com/SaiZayarHtet19";
+  static String linkedInLink =
+      "https://www.linkedin.com/in/sai-zayar-htet-b2a625241/";
+  static String resumeLink = "resume.pdf";
+  static String sendMyMail =
+      "mailto:saizayarhtet7@gmail.com?subject=HELLO&body=Hello%20Sai";
 }

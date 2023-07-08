@@ -56,6 +56,8 @@ class _ExperiencePageState extends State<ExperiencePage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
+          75.height,
+          
           MyTitleWidget(title: StringUtils.experience, number: "02"),
           30.height,
           MyText(StringUtils.experienceText),

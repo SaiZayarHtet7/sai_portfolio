@@ -68,7 +68,11 @@ class _ContactPageState extends State<ContactPage> {
                           ),
                         ),
                         20.height,
-                        MyButton(text: StringUtils.sayHello, onPressed: () {}),
+                        MyButton(
+                            text: StringUtils.sayHello,
+                            onPressed: () async {
+                              await StringUtils.sendMyMail.goToUrl();
+                            }),
                         20.height,
                         FittedBox(
                           child: MyText(

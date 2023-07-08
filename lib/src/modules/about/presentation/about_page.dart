@@ -28,7 +28,8 @@ class _AboutPageState extends State<AboutPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
-            20.height,
+            
+            75.height,
             MyTitleWidget(title: StringUtils.about, number: "01"),
             30.height,
             Flex(

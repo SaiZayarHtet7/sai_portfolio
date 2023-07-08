@@ -3,12 +3,15 @@ import 'package:sai_portfolio/src/util/util.dart';
 
 import 'modules/home/home.dart';
 
+GlobalKey materialKey = GlobalKey();
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      key: materialKey,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // Define the default brightness and colors.

@@ -26,12 +26,13 @@ class IntroPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                if (context.isMobile) 15.height,
                 MyText(
                   StringUtils.myNameIs,
                   style: context.getBodyLarge().copyWith(
                       color: context.primary(), fontWeight: FontWeight.w800),
                 ),
-                20.height,
+                15.height,
                 MyText(
                   StringUtils.saiZayarHtet,
                   style: context.getTitleLarge().copyWith(
@@ -56,8 +57,12 @@ class IntroPage extends StatelessWidget {
                       : EdgeInsets.zero,
                   child: MyText(StringUtils.introText),
                 ),
-                20.height,
-                MyButton(text: StringUtils.getMyResume, onPressed: () {})
+                10.height,
+                MyButton(
+                    text: StringUtils.getMyResume,
+                    onPressed: () async {
+                      await StringUtils.resumeLink.goToUrl();
+                    })
               ]),
           if (width > Constants.mobile)
             Align(

@@ -13,4 +13,7 @@ class ImageUtils {
   static String sfeg = "assets/images/sfeg.png";
   static String mit = "assets/images/mit.png";
   static String ucst = "assets/images/ucst.png";
+  static String facebook = "assets/images/facebook.png";
+  static String linkedin = "assets/images/linkedin.png";
+  static String github = "assets/images/github.png";
 }
